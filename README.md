@@ -1,7 +1,9 @@
 Website's Header
 ================
 
-This is the Processing.js code responsible for our website's (www.codon.im) interactive header. 
+This is the Processing.js code responsible for our website's (www.codon.im) interactive header.
+![Header](http://codon.im/wp-content/uploads/Screen-Shot-2014-12-18-at-4.15.05-PM.png)
+Format: ![Alt Text](url)
 
 If you want it to run in Processing's (java) IDE, you'd have to replace "window.innerWidth / window.innerHeight" with pre-defined dimensions. The "window" object is there so we can have a resizable and responsive view for the sketch. Also the lines below take care of making the tab button's color in sync with the header's logo's color (since it changes randomly each time), so remove that if you'd like to run the sketch in Processing IDE.
 - var hex= {"#276276", "#467E7E", "#ED8813", "#6F4FA0"};
